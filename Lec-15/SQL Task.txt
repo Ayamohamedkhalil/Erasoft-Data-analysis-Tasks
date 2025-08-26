@@ -1,0 +1,21 @@
+SELECT * FROM Customers;
+SELECT * FROM Categories;
+SELECT CustomerName,ContactName FRoM Customers;
+Select * From Products 
+where price >20;
+Select * From Products 
+where price between 10 and 30;
+Select * From Customers
+where Contactname like "M%";
+Select * From Customers
+where Contactname like "%M%";
+Select * From Customers
+where Contactname is null ;
+SELECT * FROM Customers
+where Country Like "M%" and contactname like "M%";
+SELECT * FROM Products
+where price in (10,20,30)
+order by price desc;
+SELECT * FROM Products
+where price between 10 and 30
+order by price desc;
