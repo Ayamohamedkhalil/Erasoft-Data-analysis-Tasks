@@ -72,7 +72,7 @@ inner join payment p on r.rental_id=p.rental_id
 group by f.title
 order by TotalSales desc;
 
-select * from film;
+
 
 
 
